@@ -1,0 +1,1 @@
+small platform for testing canvas
