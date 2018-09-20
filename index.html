@@ -4,6 +4,14 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Canvas</title>
+    <style>
+        #app { width: 900px; height: 600px; margin: 0 auto; 
+            -webkit-box-shadow: 0px 0px 5px 0px rgba(163,158,163,1);
+            -moz-box-shadow: 0px 0px 5px 0px rgba(163,158,163,1);
+            box-shadow: 0px 0px 5px 0px rgba(163,158,163,1);
+        }
+        canvas { border: solid 1px lightgrey; }
+    </style>
     <script>
         const pageLoaded = () => {
             console.log('---', 'page loaded');
@@ -11,5 +19,8 @@
     </script>    
 </head>
 <body onload="pageLoaded()">
+    <div id="app">
+        <canvas width="900" height="600" id="testcanvas">Canvas not support</canvas>
+    </div>
 </body>
 </html>
