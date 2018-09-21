@@ -14,4 +14,11 @@ const pageLoaded = () => {
     // Clearing rectangles
     ctx.clearRect(210, 20, 30, 20);
     ctx.clearRect(260, 20, 30, 20);
+
+    // 1
+    ctx.fillStyle = "orange";
+    ctx.fillRect(330, 10, 49, 49);
+    ctx.fillRect(381, 10, 49, 49);
+    ctx.fillRect(330, 61, 49, 49);
+    ctx.fillRect(381, 61, 49, 49);
 }
