@@ -22,42 +22,50 @@ const pageLoaded = () => {
     // ctx.fillRect(330, 61, 49, 49);
     // ctx.fillRect(381, 61, 49, 49);
 
-    ctx.fillStyle = "lightblue";
-    ctx.strokeStyle = "lightblue";
+    // ctx.fillStyle = "lightblue";
+    // ctx.strokeStyle = "lightblue";
     // 2. Draw a filled triangle
-    ctx.beginPath();
-    ctx.moveTo(10, 20);
-    ctx.lineTo(10, 80);
-    ctx.lineTo(110, 50);
-    ctx.fill();
+    // ctx.beginPath();
+    // ctx.moveTo(10, 20);
+    // ctx.lineTo(10, 80);
+    // ctx.lineTo(110, 50);
+    // ctx.fill();
     // 3. Draw a stroked triangle
-    ctx.beginPath();
-    ctx.moveTo(140, 60);
-    ctx.lineTo(140, 120);
-    ctx.lineTo(40, 90);
-    ctx.closePath();
-    ctx.stroke();
+    // ctx.beginPath();
+    // ctx.moveTo(140, 60);
+    // ctx.lineTo(140, 120);
+    // ctx.lineTo(40, 90);
+    // ctx.closePath();
+    // ctx.stroke();
     // 4. Draw a semicircle
-    ctx.beginPath();
-    ctx.arc(50, 160, 40, 0, Math.PI, true);
-    ctx.stroke();
+    // ctx.beginPath();
+    // ctx.arc(50, 160, 40, 0, Math.PI, true);
+    // ctx.stroke();
     // 5. Draw a full cicrcle
-    ctx.beginPath();
-    ctx.arc(50, 160, 30, 0, 2 * Math.PI, true);
-    ctx.fill();
+    // ctx.beginPath();
+    // ctx.arc(50, 160, 30, 0, 2 * Math.PI, true);
+    // ctx.fill();
     // 6. Draw a three-quarter arc
-    ctx.beginPath();
-    ctx.arc(140, 160, 25, 0, 3/2 * Math.PI, false);
-    ctx.stroke();
+    // ctx.beginPath();
+    // ctx.arc(140, 160, 25, 0, 3/2 * Math.PI, false);
+    // ctx.stroke();
     // 7. Draw a more complex set of lines
-    ctx.beginPath();
-    ctx.moveTo(160, 60);
-    ctx.lineTo(170, 120);
-    ctx.lineTo(240, 110);
-    ctx.lineTo(260, 70);
-    ctx.lineTo(190, 40);
-    ctx.closePath();
-    ctx.stroke();
+    // ctx.beginPath();
+    // ctx.moveTo(160, 60);
+    // ctx.lineTo(170, 120);
+    // ctx.lineTo(240, 110);
+    // ctx.lineTo(260, 70);
+    // ctx.lineTo(190, 40);
+    // ctx.closePath();
+    // ctx.stroke();
     // end
-    
+
+    // 8. Drawing text
+    ctx.fillText('This is some text', 330, 40);
+    // Modify the font
+    ctx.font = '10pt Arial';
+    ctx.fillText('This is in 10pt Arial', 330, 60);
+    // Draw stroked text
+    ctx.font = '16pt Arial';
+    ctx.strokeText('This is stroked in 16pt Arial', 330, 80);
 }
