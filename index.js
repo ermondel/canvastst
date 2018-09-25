@@ -61,11 +61,26 @@ const pageLoaded = () => {
     // end
 
     // 8. Drawing text
-    ctx.fillText('This is some text', 330, 40);
+    // ctx.fillText('This is some text', 330, 40);
     // Modify the font
-    ctx.font = '10pt Arial';
-    ctx.fillText('This is in 10pt Arial', 330, 60);
+    // ctx.font = '10pt Arial';
+    // ctx.fillText('This is in 10pt Arial', 330, 60);
     // Draw stroked text
-    ctx.font = '16pt Arial';
-    ctx.strokeText('This is stroked in 16pt Arial', 330, 80);
+    // ctx.font = '16pt Arial';
+    // ctx.strokeText('This is stroked in 16pt Arial', 330, 80);
+
+    // 9. Fill styles and colors
+    ctx.fillStyle = 'red';
+    ctx.fillRect(310, 160, 100, 50);
+    ctx.strokeStyle = 'green';
+    ctx.strokeRect(310, 240, 100, 50);
+    ctx.fillStyle = "rgb(255, 255, 0)";
+    ctx.fillRect(420, 160, 100, 50);
+    ctx.fillStyle = "rgba(0, 255, 0, 0.6)";
+    ctx.fillRect(450, 180, 100, 50);
+    const grassImage = document.getElementById('grass');
+    const pattern = ctx.createPattern(grassImage, "repeat");
+    ctx.fillStyle = pattern;
+    ctx.fillRect(420, 240, 130, 50);
+    
 }
