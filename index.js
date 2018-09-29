@@ -84,8 +84,21 @@ const pageLoaded = () => {
     // ctx.fillRect(420, 240, 130, 50);
     
     // Drawing images
+    // const spaceship = document.getElementById('spaceship');
+    // ctx.drawImage(spaceship, 0, 150);
+    // ctx.drawImage(spaceship, 0, 100, 100, 25);
+    // ctx.drawImage(spaceship, 0, 0, 60, 50, 0, 0, 60, 50);
+
+    // Rotation and translation
     const spaceship = document.getElementById('spaceship');
-    ctx.drawImage(spaceship, 0, 150);
-    ctx.drawImage(spaceship, 0, 100, 100, 25);
-    ctx.drawImage(spaceship, 0, 0, 60, 50, 0, 0, 60, 50);
+    ctx.translate(250, 370);
+    ctx.rotate(Math.PI / 3);
+    ctx.drawImage(spaceship, 0, 0, 60, 50, -30, -25, 60, 50);
+    ctx.rotate(-Math.PI / 3);
+    ctx.translate(-240, -370);
+    ctx.translate(300, 370);
+    ctx.rotate(3 * Math.PI / 4);
+    ctx.drawImage(spaceship, 0, 0, 60, 50, -30, -25, 60, 50);   
+    ctx.rotate(-3 * Math.PI / 4);
+    ctx.translate(-300, -370);
 }
