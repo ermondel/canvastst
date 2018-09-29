@@ -70,17 +70,22 @@ const pageLoaded = () => {
     // ctx.strokeText('This is stroked in 16pt Arial', 330, 80);
 
     // 9. Fill styles and colors
-    ctx.fillStyle = 'red';
-    ctx.fillRect(310, 160, 100, 50);
-    ctx.strokeStyle = 'green';
-    ctx.strokeRect(310, 240, 100, 50);
-    ctx.fillStyle = "rgb(255, 255, 0)";
-    ctx.fillRect(420, 160, 100, 50);
-    ctx.fillStyle = "rgba(0, 255, 0, 0.6)";
-    ctx.fillRect(450, 180, 100, 50);
-    const grassImage = document.getElementById('grass');
-    const pattern = ctx.createPattern(grassImage, "repeat");
-    ctx.fillStyle = pattern;
-    ctx.fillRect(420, 240, 130, 50);
+    // ctx.fillStyle = 'red';
+    // ctx.fillRect(310, 160, 100, 50);
+    // ctx.strokeStyle = 'green';
+    // ctx.strokeRect(310, 240, 100, 50);
+    // ctx.fillStyle = "rgb(255, 255, 0)";
+    // ctx.fillRect(420, 160, 100, 50);
+    // ctx.fillStyle = "rgba(0, 255, 0, 0.6)";
+    // ctx.fillRect(450, 180, 100, 50);
+    // const grassImage = document.getElementById('grass');
+    // const pattern = ctx.createPattern(grassImage, "repeat");
+    // ctx.fillStyle = pattern;
+    // ctx.fillRect(420, 240, 130, 50);
     
+    // Drawing images
+    const spaceship = document.getElementById('spaceship');
+    ctx.drawImage(spaceship, 0, 150);
+    ctx.drawImage(spaceship, 0, 100, 100, 25);
+    ctx.drawImage(spaceship, 0, 0, 60, 50, 0, 0, 60, 50);
 }
