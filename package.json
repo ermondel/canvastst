@@ -1,0 +1,23 @@
+{
+  "name": "udemy-ts-maps",
+  "description": "udemy ts maps",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ermondel/udemy-ts-maps.git"
+  },
+  "author": "ermondel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ermondel/udemy-ts-maps/issues"
+  },
+  "homepage": "https://github.com/ermondel/udemy-ts-maps#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^3.5.3"
+  }
+}
