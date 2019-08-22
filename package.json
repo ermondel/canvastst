@@ -16,7 +16,10 @@
     "url": "https://github.com/ermondel/udemy-ts-maps/issues"
   },
   "homepage": "https://github.com/ermondel/udemy-ts-maps#readme",
-  "dependencies": {},
+  "dependencies": {
+    "@types/faker": "^4.1.5",
+    "faker": "^4.1.0"
+  },
   "devDependencies": {
     "typescript": "^3.5.3"
   }
