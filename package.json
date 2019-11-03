@@ -1,6 +1,6 @@
 {
-  "name": "udemy-ts-maps",
-  "description": "udemy ts maps",
+  "name": "ts-maps",
+  "description": "ts maps",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ermondel/udemy-ts-maps.git"
+    "url": "git+https://github.com/ermondel/ts-maps.git"
   },
   "author": "ermondel",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ermondel/udemy-ts-maps/issues"
+    "url": "https://github.com/ermondel/ts-maps/issues"
   },
-  "homepage": "https://github.com/ermondel/udemy-ts-maps#readme",
+  "homepage": "https://github.com/ermondel/ts-maps#readme",
   "dependencies": {
     "@types/faker": "^4.1.5",
     "@types/googlemaps": "^3.37.4",
